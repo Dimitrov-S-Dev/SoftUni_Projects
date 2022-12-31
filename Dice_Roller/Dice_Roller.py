@@ -1,5 +1,13 @@
 from random import randint
+"""
+Create a script that rolls dice for a user.  
+When the script runs, it should ask a user how many dice they want to roll 
+and how many sides each die will have.
+Then it randomly rolls those dice and prints the result.
+Every time a user hits Enter, the dice are rolled again.
+If a user every enter “q”, then the script quits and stops running!
 
+"""
 dice_to_roll = int(input("How many dice to roll? \n"))
 how_many_sides = int(input("How many sides? \n"))
 
