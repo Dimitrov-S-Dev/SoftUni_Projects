@@ -9,7 +9,7 @@ if dice_to_roll > 0 and how_many_sides > 0:
         for dice in range(dice_to_roll):
             side = randint(1,how_many_sides)
             result += f"{side}|"
-        print(result)
+        print(f"Output is:\n{result}")
         roll_again = input("Roll again? ('q' to quit) \n")
 
 
