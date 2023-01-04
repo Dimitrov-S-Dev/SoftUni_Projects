@@ -19,5 +19,3 @@ if dice_to_roll > 0 and how_many_sides > 0:
             result += f"{side}|"
         print(f"Output is:\n{result}")
         roll_again = input("Roll again? ('q' to quit) \n")
-
-
