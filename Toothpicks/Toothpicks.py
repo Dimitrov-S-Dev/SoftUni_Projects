@@ -3,7 +3,6 @@ toothpicks = 13
 Implement a version of the “classic” matchsticks/toothpicks two player game.
 We start with 13 toothpicks, and plays take turns removing 1, 2, or 3 toothpicks at a time.
 The person who removes the last toothpick wins.
-
 """
 print("Welcome To The Game!")
 print("*******************")
