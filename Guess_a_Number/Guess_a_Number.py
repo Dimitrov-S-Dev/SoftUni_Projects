@@ -13,5 +13,3 @@ while True:
             print("Too High!")
         else:
             print("Too Low!")
-
-
