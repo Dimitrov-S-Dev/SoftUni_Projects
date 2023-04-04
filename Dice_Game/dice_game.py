@@ -15,7 +15,7 @@ class DiceGame:
     def play_round(self):
         # Welcome the user
         print(f"---------New Round---------")
-        input("🎲 Press any key to roll the dice.🎲")
+        input("🎲 Press ENTER to roll the dice.🎲")
         # Roll the dice
         player_value = self._player.roll_die()
         computer_value = self._computer.roll_die()
@@ -38,3 +38,4 @@ class DiceGame:
         # Show counters
         print(f"Your counter: {self._player.counter}")
         print(f"Computer counter: {self._computer.counter}")
+
