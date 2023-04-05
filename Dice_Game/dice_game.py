@@ -51,8 +51,8 @@ class DiceGame:
         loser.increment_counter()
 
     def show_counters(self):
-        print(f"Your counter: {self._player.counter}")
-        print(f"Computer counter: {self._computer.counter}")
+        print(f"\nYour counter: {self._player.counter}")
+        print(f"Computer counter: {self._computer.counter}\n")
 
     def check_game_over(self):
         if self._player.counter == 0:
